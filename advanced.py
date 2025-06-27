@@ -9,13 +9,27 @@
 
 
 
-print("Get all the number divisible")
+# print("Get all the number divisible")
 
-startLimit = int( input("Enter the starting number: "))
-lastNumber = int( input("Enter the last number: "))
+# startLimit = int( input("Enter the starting number: "))
+# lastNumber = int( input("Enter the last number: "))
 
-number = int(input ("Enter the number: "))
+# number = int(input ("Enter the number: "))
 
-for  i in range(startLimit,lastNumber+1):
-    if int(i) % int(number)  == 0:
-        print('Number is :',i)
+# for  i in range(startLimit,lastNumber+1):
+#     if int(i) % int(number)  == 0:
+#         print('Number is :',i)
+
+
+print("Convert a number to binary, octal, hexadecimal")
+decimal = int( input("Enter a number:"))
+convert = int( input("Enter th ebase to be converted:"))
+
+if convert == 2:
+    answer = bin(decimal)
+elif convert == 8:
+    answer = oct(decimal)
+elif convert == 16:
+    answer = hex(decimal)
+
+print("The number in demanded base is:",answer)
