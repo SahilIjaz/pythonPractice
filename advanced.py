@@ -39,3 +39,14 @@
 # number = ord(char)
 # print('The number is: ',number)
 
+
+# print('Find HCF')
+# def findHcf(x,y):
+#     while y!=0:
+#         x,y =y, x%y
+#     return x
+
+# int1 = int( input('Entert first number: '))
+# int2 =int( input('Enter second number: '))
+# print('HCF is: ',findHcf(int1,int2))
+
