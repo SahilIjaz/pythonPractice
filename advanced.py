@@ -50,3 +50,10 @@
 # int2 =int( input('Enter second number: '))
 # print('HCF is: ',findHcf(int1,int2))
 
+print('Factors of a number')
+number = int( input("Enter a number: "))
+for i in range(1,number + 1):
+    if number % i == 0:
+        print(' ',i)
+
+
