@@ -21,15 +21,21 @@
 #         print('Number is :',i)
 
 
-print("Convert a number to binary, octal, hexadecimal")
-decimal = int( input("Enter a number:"))
-convert = int( input("Enter th ebase to be converted:"))
+# print("Convert a number to binary, octal, hexadecimal")
+# decimal = int( input("Enter a number:"))
+# convert = int( input("Enter th ebase to be converted:"))
 
-if convert == 2:
-    answer = bin(decimal)
-elif convert == 8:
-    answer = oct(decimal)
-elif convert == 16:
-    answer = hex(decimal)
+# if convert == 2:
+#     answer = bin(decimal)
+# elif convert == 8:
+#     answer = oct(decimal)
+# elif convert == 16:
+#     answer = hex(decimal)
 
-print("The number in demanded base is:",answer)
+# print("The number in demanded base is:",answer)
+
+# print('Convert ASCII values and numbers')
+# char = input("Enter the character:")
+# number = ord(char)
+# print('The number is: ',number)
+
